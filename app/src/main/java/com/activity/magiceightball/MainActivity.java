@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
                 Random numberRandomGenerator = new Random();
                 int numero = numberRandomGenerator.nextInt(5);
                 ballDisplay.setImageResource(ballArray[numero]);
-                Toast.makeText(MainActivity.this, "enjoy", Toast.LENGTH_SHORT).show();
             }
         });
 
